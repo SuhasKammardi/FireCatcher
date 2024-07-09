@@ -1,0 +1,158 @@
+.App {
+  text-align: center;
+}
+
+/* html{
+  width: 100%;
+  height: 100%;
+}  */
+
+/* body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+} */
+
+/* Add this to your CSS file */
+.custom-slider {
+  position: relative;
+}
+
+.slick-prev,
+.slick-next {
+  font-size: 0; /* Hide text content */
+  line-height: 0;
+  width: 20px;
+  height: 20px;
+  /* background-color: transparent; */
+  border: none;
+  outline: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.slick-prev {
+  /* opacity: 1; */
+  left: 30px !important;
+  color:black !important;
+  background-color: rgb(153, 141, 141) !important;
+  border-color: rgb(255, 255, 255);
+}
+
+.slick-next {
+  /* opacity: 0; */
+  right: 30px !important;
+  color: black !important;
+  background-color: rgb(153, 141, 141) !important;
+  border-color: rgb(255, 255, 255);
+}
+
+
+
+/* root{
+  width: 100%;
+  height: 100%;
+} */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.Hslider{
+  height: 650px !important;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navigation-menu{
+  display: flex;
+  flex-wrap: wrap;
+  webkit-box-pack: center;
+  ms-flex-pack: center;
+  justify-content:center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  float: none;
+  
+  
+}
+li{
+  text-align: -webkit-match-parent;  
+}
+
+/* .navigation-menu>li{
+  display: block;
+  float: left;
+  position: relative;
+  margin: 0 5px;
+
+} */
+
+ul{
+  margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+body{
+  background: #fff;
+  color: #363636;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  overflow-x: hidden;
+}
+
+#topnav {
+	position: fixed;
+	right: 0;
+	left: 0;
+	top: 0;
+	z-index: 999;
+	background-color: white;
+	border: 0;
+	-webkit-transition: all .5s ease;
+	transition: all .5s ease
+}
+
+#topnav .logo {
+	float: left;
+	color: #212529 !important
+}
+
